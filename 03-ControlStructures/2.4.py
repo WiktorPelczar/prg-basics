@@ -16,6 +16,8 @@ elif operator == '*':
     result = number1 * number2
 elif operator == '/':
     result = number1 / number2
+else: 
+    result = "wynik nie istnieje"
 
 # print result
-print(f'{number1} {operator} {number2} = {result}')
+print(f'{number1} {operator} {number2} = {result} ')

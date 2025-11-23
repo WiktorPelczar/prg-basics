@@ -5,10 +5,12 @@
 #
 total_task = 20
 tasks_ok =int(input('Wpisz liczbę:'))
-test_passed = False
+
 
 if tasks_ok >=10 and total_task >= tasks_ok:
     test_passed = True
+else:
+    test_passed = False
 
 if test_passed:
     print('Congratulations! You passed the test.')
